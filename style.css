@@ -156,7 +156,7 @@ address{font-style:normal;margin-top:12px;color:#33424a}
 /* tablet / waski komputer */
 @media (max-width:1100px){
   .menu,.top-tel span{display:none}
-  .top-tel{margin-left:auto;padding:0;width:46px;height:46px;justify-content:center}
+  .top-tel{margin-left:auto;padding:0;width:46px;height:46px;flex:0 0 46px;justify-content:center}
   .top-tel svg{width:20px;height:20px}
   .ham{display:block}
   .panel{display:block;position:fixed;left:0;right:0;top:var(--head);bottom:0;background:#fff;padding:12px 20px;overflow:auto;
@@ -221,6 +221,11 @@ address{font-style:normal;margin-top:12px;color:#33424a}
   .mob.widac{transform:none}
   .mob a{display:flex;align-items:center;justify-content:center;height:48px;border-radius:999px;text-decoration:none;font-weight:700;border:1.5px solid var(--ink)}
   .mob .mob-cta{background:var(--teal);border-color:var(--teal);color:#fff}
+}
+@media (max-width:380px){
+  .wm{font-size:19px;letter-spacing:.16em}
+  .marka small{letter-spacing:.18em}
+  .top-in{gap:16px}
 }
 @media (max-width:760px) and (max-height:680px){
   .hero-godz{display:none}
